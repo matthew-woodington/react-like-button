@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.like-button {
+  margin: 50px;
+  padding: 10px 15px;
+  border: 2px solid #8aa6ed;
+  background: linear-gradient(180deg, #7e98da, #6489EA);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  box-shadow: 0 6px #999;
+}
+
+.like-button:active {
+  background: linear-gradient(180deg, #6489EA, #7e98da);
+  box-shadow: 0 3px #999;
+  transform: translateY(3px);
+}
